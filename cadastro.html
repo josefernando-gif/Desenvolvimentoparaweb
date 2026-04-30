@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Olá Seja Bem Vindo ao Questionário Ruas</h1><br>
+    <h3 align = "left"> Crie o Cadastro </h3>
+    
+    <form>
+        <label>Nome Completo:</label>
+        <input type="text"><br>
+        <!-- <input type="color"> --> <!-- PALETA DE CORES --> 
+        <label>Email: </label> <!-- usa se o "label" para indicar que naquela caixinha ele deve digitar aqui, no caso "nome" -->
+        <input type= "text"> <!-- "input" é uma caixa para o usuário inserir um "texto" comum -->
+         <br>
+        <label>Nome de Usuário(Login): </label>
+        <input type = "text"> <br>
+        <label>Senha(Cadastro) : </label>
+        <input type="password" id="Senha(Cadastro)" value="123456">
+        <button type="button" onclick="Senha.type = Senha.type === 'password' ? 'text' : 'password'">
+        Mostrar/Ocultar </button>
+        <label>Confirmar Senha </label>
+         <input type="password" id="Confirmar Senha" value="123456">
+        <button type="button" onclick="Senha.type = Senha.type === 'password' ? 'text' : 'password'">>
+        Mostrar/Ocultar </button>
+        <input type="text",maxlength="30">
+
+
+        <input type="reset" > <!-- esse "password" é um "type" para inserir senha, ai as caracteres q nn mostra -->
+       <br>
+        <label>Comentários: </label>
+        <textarea rows= "10" cols="50" maxlength="500" ></textarea> <br><br> <!-- "rows" é o numero de linhas da caixa e "cols" é a largura da caixa, já o maxlength limita o numero de caracteres na caixa -->
+        <label>Estado: </label>
+        <input type="reset" >
+        <input type="checkbox">
+        
+        
+       
+        <button>ENVIAR</button>
+    </form>
+</body>
+</html>
+
+<!-- name agrupamento gênero -->
+ <!--  -->
