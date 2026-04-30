@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <label>E-mail:</label>
+        <input type="email"><br>
+        <input type="color"> <!-- PALETA DE CORES -->
+        <br>
+        <input type="range">
+        <label> Imagem: </label>
+        <input type="file"> 
+        <br>
+        <label>Nome: </label> <br> <!-- usa se o "label" para indicar que naquela caixinha ele deve digitar aqui, no caso "nome" -->
+        <input type= "text"> <!-- "input" é uma caixa para o usuário inserir um "texto" comum -->
+        <br>
+        <label>Senha: </label>
+        <input type="password" id="Senha" value="123456">
+        <button type="button" onclick="Senha.type = Senha.type === 'password' ? 'text' : 'password'">
+        Mostrar/Ocultar </button>
+        <input type="reset" > <!-- esse "password" é um "type" para inserir senha, ai as caracteres q nn mostra -->
+       <br>
+        <label>Comentários: </label>
+        <textarea rows= "10" cols="50" maxlength="500" ></textarea> <br><br> <!-- "rows" é o numero de linhas da caixa e "cols" é a largura da caixa, já o maxlength limita o numero de caracteres na caixa -->
+        <label>Estado: </label>
+        <input type="reset" >
+        <input type="checkbox">
+        
+        
+        <select>                    <!-- o "select" serve para dar opçoes ao texto do "label" -->
+            <option>AC</option>
+            <option>AM</option>
+            <option>AP</option>
+            <option>BA</option>
+            <option>GO</option>
+            <option>MT</option>
+        </select> <br>
+        Masculino <input type="radio" name="genero"checked> <br> <!-- esse "radio" é o circulo de seleção -->
+        Feminino <input type="radio" name="genero" checked> <br> <!-- esse "checked" serve para ja deixar selecionado -->
+        Preferências: <br>
+        <input type="checkbox">Sertanejo  <!-- "checkbox" é a caixinha quadradinha que você consegue marcar mais de um somente 1 -->
+        <input type="checkbox">Rock
+        <input type="checkbox">Clássicas
+        <input type="checkbox">Pagode <br><br>
+          
+
+        <button>ENVIAR</button>
+    </form>
+</body>
+</html>
+
+<!-- name agrupamento gênero -->
+ <!--  -->
